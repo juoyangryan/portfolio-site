@@ -6,6 +6,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
 import Footer from './components/Footer';
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
+import ContactsPage from './pages/ContactsPage';
 
 class App extends React.Component {
   constructor(props) {
@@ -18,7 +21,9 @@ class App extends React.Component {
         {title: "Contacts", path: "/contact"}
       ],
       home: {
-        title: "Welcome to my website."
+        title: "Welcome to my website.",
+        subtitle: "fatter",
+        text: "fattest"
       },
       about: {
         title: "About Me"
@@ -44,6 +49,18 @@ class App extends React.Component {
               </Nav>
             </Navbar.Collapse>
           </Navbar>
+
+          <Route path="/" exact render={
+            () => <HomePage title={this.state.home.title} subtitle={this.state.home.subtitle} text={this.state.home.text}/>
+          }/>
+
+          <Route path="/about" render={
+            () => <AboutPage title={this.state.about.title}/>
+          }/>
+
+          <Route path="/contact" render={
+            () => <ContactsPage title={this.state.contacts.title}/>
+          }/>
 
           <Footer />
         </Container>

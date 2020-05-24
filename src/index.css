@@ -20,7 +20,7 @@ code {
   border-radius: 10px;
   width: 300px;
   height: 480px;
-  box-shadow: 0 0 3px 1px #ccc;
+  box-shadow: 2px 2px 3px 2px #ccc;
 }
 
 .j-card-info {
@@ -46,4 +46,47 @@ code {
 .err-msg {
   color: #EE6352;
   padding: 10px 15px;
+}
+
+.r-words {
+  display: inline;
+  text-indent: 0.25em;
+}
+
+.r-words span{
+  position: absolute;
+	opacity: 0;
+	overflow: hidden;
+	width: 100%;
+  color: #6b969d;
+  animation: rotateWordsFirst 12s linear infinite 0s;
+}
+
+.r-words span:nth-child(2) { 
+	animation-delay: 3s; 
+	color: #6b889d;
+}
+
+.r-words span:nth-child(3) { 
+	animation-delay: 6s; 
+	color: #6b739d;	
+}
+
+.r-words span:nth-child(4) { 
+	animation-delay: 9s; 
+	color: #7a6b9d;
+}
+
+@keyframes rotateWordsFirst {
+  0% { opacity: 1; animation-timing-function: ease-in; height: 0px; }
+  8% { opacity: 1; height: 60px; }
+  19% { opacity: 1; height: 60px; }
+  25% { opacity: 0; height: 60px; }
+  100% { opacity: 0; }
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.02); /* IE 9 */
+  -webkit-transform: scale(1.02); /* Safari 3-8 */
+  transform: scale(1.02); 
 }

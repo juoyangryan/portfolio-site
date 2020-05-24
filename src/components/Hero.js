@@ -11,8 +11,18 @@ function Hero(props) {
                 <Row className='justify-content-center py-5'>
                     <Col md={8} sm={12} lg={8}>
                         { props.title && <h1 className='display-1 font-weight-bolder'>{props.title}</h1>}
-                        { props.subtitle && <h3 className='display-4 font-weight-light'>{props.subtitle}</h3>}
-                        { props.text && <h3 className='lead font-weight-light'>{props.text}</h3>}
+                        { props.subtitle && <div>
+                            <h3 className='display-4 font-weight-light'>
+                                <span>{props.subtitle}</span>
+                                <div className="r-words">
+                                    <span>Software Developer.</span>
+                                    <span>Web Developer.</span>
+                                    <span>Dancer.</span>
+                                    <span>Beatboxer.</span>
+                                </div>
+                            </h3>
+                        </div>}
+                        { props.text && <h3 className="lead font-weight-light">{props.text}</h3> }
                     </Col>
                 </Row>
             </Container>

@@ -18,6 +18,10 @@ function AboutPage(props) {
             <p></p>
             <a href={resume} className='resume' target="_blank" rel="noopener noreferrer">Resume</a>
 
+            <Content>
+            <h1 className='display-4'>Education</h1>
+            </Content>
+
             <Timeline />
         </div>
     );

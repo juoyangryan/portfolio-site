@@ -2,7 +2,9 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
-import profile from '../assets/images/profile.jpg';
+import yamato from '../assets/images/yamato.jpg';
+import hackgt from '../assets/images/hackgt.png';
+import neuma from '../assets/images/neuma.jpg';
 import Card from '../components/Card';
 
 class Carousel extends React.Component {
@@ -12,26 +14,26 @@ class Carousel extends React.Component {
             items: [
                 {
                     id: 0,
-                    title: 'Title 1',
-                    subtitle: 'subtitle 1',
-                    imgSrc: profile,
-                    link: 'https://devgrub.com',
+                    title: 'Otamahero Game',
+                    subtitle: 'HackGT project 2019',
+                    imgSrc: hackgt,
+                    link: 'https://github.com/HackGT2019',
                     selected: false
                 },
                 {
                     id: 1,
-                    title: 'Title 2',
-                    subtitle: 'subtitle 2',
-                    imgSrc: profile,
-                    link: 'https://devgrub.com',
+                    title: 'Project Yamato',
+                    subtitle: 'E-commerce Analysis Webapp',
+                    imgSrc: yamato,
+                    link: null,
                     selected: false
                 },
                 {
                     id: 2,
-                    title: 'Title 3',
-                    subtitle: 'subtitle 3',
-                    imgSrc: profile,
-                    link: 'https://devgrub.com',
+                    title: 'Neuro-markers of Expertise',
+                    subtitle: 'Psychology Research CS Team Leader',
+                    imgSrc: neuma,
+                    link: 'https://github.com/juoyangryan/neuma-script',
                     selected: false
                 },
             ]

@@ -90,3 +90,36 @@ code {
   -webkit-transform: scale(1.02); /* Safari 3-8 */
   transform: scale(1.02); 
 }
+
+.resume {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border-style: solid;
+  width: 150px;
+  display: block;
+  text-align: center;
+}
+
+.resume:visited, .resume:link {
+  background-color: transparent;
+  color: black;
+  padding: 14px 25px;
+  text-decoration: none;
+}
+
+.resume:hover, .resume:active {
+  background-color: #ccc;
+}
+
+.timeline-subtitle {
+  color: gray;
+  font-weight: lighter;
+}
+
+.curr-education {
+  background-color: #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2);
+}

@@ -18,6 +18,7 @@ class Carousel extends React.Component {
                     subtitle: 'HackGT project 2019',
                     imgSrc: hackgt,
                     link: 'https://github.com/HackGT2019',
+                    details:'A Guitar Hero style game that uses the position of ones mouth and fist to determine volume and pitch. The game environment is laid out based on an additional program that separates the main vocal track from midi files. Other instrument tracks are played through Tone.js as background music.',
                     selected: false
                 },
                 {
@@ -26,6 +27,7 @@ class Carousel extends React.Component {
                     subtitle: 'E-commerce Analysis Webapp',
                     imgSrc: yamato,
                     link: null,
+                    details: 'Front-end developer of Chrome extension for e-commerce product analysis. The web app aims to aid Shopify site owners to make educated decisions for products to sell based on Facebook advertisements, the Shopify API, Aliexpress statistics, and Google trends.',
                     selected: false
                 },
                 {
@@ -34,6 +36,7 @@ class Carousel extends React.Component {
                     subtitle: 'Psychology Research CS Team Leader',
                     imgSrc: neuma,
                     link: 'https://github.com/juoyangryan/neuma-script',
+                    details: 'Led the software script team for running experiments, data collection, and data analysis.',
                     selected: false
                 },
             ]

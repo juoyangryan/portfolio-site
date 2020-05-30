@@ -127,6 +127,16 @@ code {
 
 .expand {
   width: 300px;
-  box-shadow: none;
   box-shadow: none !important;
+}
+
+.profile {
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+}
+
+.about-text {
+  font-size: large;
+  padding: 70px 0;
 }

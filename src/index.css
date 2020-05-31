@@ -140,3 +140,23 @@ code {
   font-size: large;
   padding: 70px 0;
 }
+
+.footer-icons {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-content {
+  margin-left: auto;
+  margin-right: auto;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.footer-border {
+  border-top: gray;
+}
+
+.color {
+  color: red;
+}

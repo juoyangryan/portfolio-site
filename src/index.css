@@ -20,7 +20,7 @@ code {
   border-radius: 10px;
   width: 300px;
   height: 480px;
-  box-shadow: 2px 2px 3px 2px #ccc;
+  box-shadow: 2px 2px 8px 2px #ddd;
 }
 
 .j-card-info {
@@ -86,10 +86,14 @@ code {
   100% { opacity: 0; }
 }
 
+.zoom {
+  transition: transform, 100ms ease-in-out;
+}
+
 .zoom:hover {
-  -ms-transform: scale(1.02); /* IE 9 */
-  -webkit-transform: scale(1.02); /* Safari 3-8 */
-  transform: scale(1.02); 
+  -ms-transform: scale(1.03); /* IE 9 */
+  -webkit-transform: scale(1.03); /* Safari 3-8 */
+  transform: scale(1.03); 
 }
 
 .resume {
@@ -134,11 +138,12 @@ code {
   height: 300px;
   width: 300px;
   border-radius: 150px;
+  box-shadow: 0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2);;
 }
 
 .about-text {
   font-size: large;
-  padding: 70px 0;
+  width: 600px;
 }
 
 .footer-icons {
@@ -162,4 +167,33 @@ code {
   color: #ccc;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.about-intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-intro > * {
+  margin: 1em 0;
+}
+
+.jumbo {
+  background-image: linear-gradient(#f2f2f2, white);
+}
+
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #f2f2f2;
+}
+
+body::-webkit-scrollbar-thumb {
+background-color: darkgray;
+border-radius: 0.25em;
 }

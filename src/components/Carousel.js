@@ -38,7 +38,7 @@ class Carousel extends React.Component {
                     subtitle: 'JavaScript, HTML, CSS, OpenCV, Node.js',
                     imgSrc: hackgt,
                     link: 'https://github.com/HackGT2019',
-                    details:'A Guitar Hero style game that uses the position of ones mouth and fist to determine volume and pitch. The game environment is laid out based on an additional program that separates the main vocal track from midi files. Other instrument tracks are played through Tone.js as background music.',
+                    details:'A Guitar Hero style game that uses the position of one\'s mouth and fist to determine volume and pitch. The game environment is laid out based on an additional program that separates the main vocal track from midi files. Other instrument tracks are played through Tone.js as background music.',
                     selected: false
                 },
                 {

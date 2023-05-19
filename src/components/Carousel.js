@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 
 import yamato from '../assets/images/yamato.jpg';
 import hackgt from '../assets/images/hackgt.png';
-import neuma from '../assets/images/neuma.jpg';
+// import neuma from '../assets/images/neuma.jpg';
 import geo from '../assets/images/geo.jpeg';
 import stocks from '../assets/images/stocks.png';
 import Card from '../components/Card';
@@ -50,15 +50,15 @@ class Carousel extends React.Component {
                     details: 'Front-end developer of Chrome extension for e-commerce product analysis. The web app aims to aid Shopify site owners to make educated decisions for products to sell based on Facebook advertisements, the Shopify API, Aliexpress statistics, and Google trends.',
                     selected: false
                 },
-                {
-                    id: 4,
-                    title: 'Psychology Research CS Team Leader',
-                    subtitle: 'Python, Pandas, Arduino',
-                    imgSrc: neuma,
-                    link: 'https://github.com/juoyangryan/neuma-script',
-                    details: 'Led the software script team for running experiments, data collection, and data analysis.',
-                    selected: false
-                },
+                // {
+                //     id: 4,
+                //     title: 'Psychology Research CS Team Leader',
+                //     subtitle: 'Python, Pandas, Arduino',
+                //     imgSrc: neuma,
+                //     link: 'https://github.com/juoyangryan/neuma-script',
+                //     details: 'Led the software script team for running experiments, data collection, and data analysis.',
+                //     selected: false
+                // },
             ]
         }
     }

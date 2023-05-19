@@ -57,7 +57,7 @@ function TimelineComponent(props) {
             </ul>
         </TimelineItem>
         <TimelineItem
-            key="002"
+            key="004"
             dateText="04/2009 – 11/2010"
             style={{ color: '#6b889d' }}
             dateInnerStyle={{ background: '#6b889d', color: '#FFF' }}>

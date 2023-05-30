@@ -36,7 +36,7 @@ class ContactsPage extends React.Component {
             disabled: true
         })
 
-        Axios.post('https://juoyang-backend.herokuapp.com/send_email', this.state)
+        Axios.post('https://elegant-pig-lab-coat.cyclic.app/send_email', this.state)
             .then(res => {
                 console.log(res.data)
                 if (res.data.success) {

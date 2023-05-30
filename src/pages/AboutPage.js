@@ -16,7 +16,7 @@ function AboutPage(props) {
                 <div className="about-intro">
                     <img src={profile} alt={profile} className='profile' />
                     <p className="about-text">
-                    Hello there! Welcome to my portfolio website. I'm a software developer with a Masters degree in CS from Georgia Tech. My main experiences lie in frontend, backend, web development, and databases. I'm passionate about creating interactive, engaging solutions to problems. Let's connect and discuss how I can bring value to your team!
+                    Hello there! Welcome to my portfolio website. I'm a software developer with a Master's degree in CS from Georgia Tech. My main experiences lie in frontend, backend, web development, and databases. I'm passionate about creating interactive, engaging solutions to problems. Let's connect and discuss how I can bring value to your team!
                     </p>
                 </div>
             </Content>
